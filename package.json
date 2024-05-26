@@ -1,0 +1,21 @@
+{
+    "name": "revit-docs-api",
+    "version": "0.0.1",
+    "description": "api with simple crud on the revit api docs",
+    "main": "index.js",
+    "repository": "git@github.com:sorinfratila/revit-docs-api.git",
+    "author": "Sorin Fratila <sorin.fratila@acquia.com>",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.4.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    }
+}
